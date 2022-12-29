@@ -16,8 +16,7 @@ spec:
     spec:
       containers:
       - args:
-         - sleep 6000
-         #-  odoo --db_host=$DB_HOST --database=$DB --db_user=$DB_USER  --db_password=$DB_PASSWORD --db_port=$DB_PORT
+         -  odoo --db_host=$DB_HOST --database=$DB --db_user=$DB_USER  --db_password=$DB_PASSWORD --db_port=$DB_PORT
         command:
            - /bin/sh
            - '-c'
